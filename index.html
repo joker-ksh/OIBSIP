@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body id="cal-body">
+    <h1 id="tittle">Oasis infobyte calculator</h1>
+    <!-- the grid started -->
+        <div class="calculator-grid">
+            <table class="cal-table">
+                <tr class="first-row">
+                    <td colspan="5">
+                        <!-- this is display of calculator -->
+                        <div class="display">
+                            <p id ="upper-input"></p>
+                            <p id = "lower-input"></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td class="dark-row">
+                        <button  class="first input" style="background-color: rgb(160, 199, 233);">(</button>
+                    </td>
+                    <td class="dark-row">
+                        <button class="first input" style="background-color: rgb(160, 199, 233);">)</button>
+                    </td>
+                    <td class="dark-row">
+                        <button  class="first" style="background-color: rgb(160, 199, 233);">ans</button>
+                    </td>
+                    <td class="dark-row">
+                        <button   class="first" style="background-color: rgb(160, 199, 233);">del</button>
+                    </td>
+                    <td class="dark-row">
+                        <button  class="first" style="background-color: rgb(160, 199, 233);">clear</button>
+                    </td>
+                </tr>  
+                <tr class="rows">
+                    <td>
+                        <button class="sec input">7</button>
+                    </td>
+                    <td>
+                        <button class="sec input">8</button>
+                    </td>
+                    <td>
+                        <button class="sec input">9</button>
+                    </td>
+                    <td>
+                        <button class="sec input" style="background-color: rgb(160, 199, 233);">%</button>
+                    </td>
+                    <td>
+                        <button class="sec input" style="background-color: rgb(160, 199, 233);">√</button>
+                    </td>
+                </tr> 
+                <tr class="rows">
+                    <td>
+                        <button class = "input">4</button>
+                    </td>
+                    <td>
+                        <button class = "input">5</button>
+                    </td>
+                    <td>
+                        <button class = "input">6</button>
+                    </td>
+                    <td>
+                        <button class="input" style="background-color: rgb(160, 199, 233);">x</button>
+                    </td>
+                    <td>
+                        <button class = "input" style="background-color: rgb(160, 199, 233);">÷</button>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td>
+                        <button class = "input">1</button>
+                    </td>
+                    <td>
+                        <button class = "input">2</button>
+                    </td>
+                    <td>
+                        <button class = "input">3</button>
+                    </td>
+                    <td>
+                        <button class="input" style="background-color: rgb(160, 199, 233);">+</button>
+                    </td>
+                    <td>
+                        <button class="input" style="background-color: rgb(160, 199, 233);">-</button>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td>
+                        <button class="input" style="background-color: rgb(160, 199, 233);">.</button>
+                    </td>
+                    <td>
+                        <button class = "input">0</button>
+                    </td>
+                    <td>
+                        <button style="background-color: rgb(160, 199, 233);">+/-</button>
+                    </td>
+                    <td colspan="2">
+                        <button id = "enter" style="background-color: rgb(83, 153, 215);">ENTER</button>
+                    </td>
+                </tr>
+            </table>
+    
+        </div>
+</body>
+<script src="calculator.js"></script>
+</html>
