@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body id="cal-body">
+    <h1 id="tittle">Oasis infobyte calculator</h1>
+    <!-- the grid started -->
+        <div class="calculator-grid">
+            <table class="cal-table">
+                <tr class="first-row">
+                    <td colspan="5">
+                        <!-- this is display of calculator -->
+                        <div class="display">
+                            <p id ="upper-input"></p>
+                            <p id = "lower-input"></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td class="dark-row">
+                        <button  class="first button">(</button>
+                    </td>
+                    <td class="dark-row">
+                        <button class="first button">)</button>
+                    </td>
+                    <td class="dark-row">
+                        <button  class="first button">ans</button>
+                    </td>
+                    <td class="dark-row">
+                        <button   class="first button">del</button>
+                    </td>
+                    <td class="dark-row">
+                        <button  class="first button">clear</button>
+                    
+                </tr>  
+                <tr class="rows">
+                    <td>
+                        <button class="sec button">7</button>
+                    </td>
+                    <td>
+                        <button class="sec button">8</button>
+                    </td>
+                    <td>
+                        <button class="sec button">9</button>
+                    </td>
+                    <td>
+                        <button class="sec button bacha">%</button>
+                    </td>
+                    <td>
+                        <button class="sec button bacha" >√</button>
+                    </td>
+                </tr> 
+                <tr class="rows">
+                    <td>
+                        <button class = "button">4</button>
+                    </td>
+                    <td>
+                        <button class = "button">5</button>
+                    </td>
+                    <td>
+                        <button class = "button">6</button>
+                    </td>
+                    <td>
+                        <button class="button op">x</button>
+                    </td>
+                    <td>
+                        <button class = "button op">÷</button>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td>
+                        <button class = "button">1</button>
+                    </td>
+                    <td>
+                        <button class = "button">2</button>
+                    </td>
+                    <td>
+                        <button class = "button">3</button>
+                    </td>
+                    <td>
+                        <button class="button op" >+</button>
+                    </td>
+                    <td>
+                        <button class="button op" >-</button>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td>
+                        <button class="button op" >.</button>
+                    </td>
+                    <td>
+                        <button class = "button">0</button>
+                    </td>
+                    <td>
+                        <button class = "button op" >+/-</button>
+                    </td>
+                    <td colspan="2">
+                        <button id = "enter" class = "button op">ENTER</button>
+                    </td>
+                </tr>
+            </table>
+    
+        </div>
+</body>
+<script src="calculator.js"></script>
+</html>
